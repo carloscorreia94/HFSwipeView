@@ -12,7 +12,7 @@ import TinyLog
 // MARK: - Page Control
 extension HFSwipeView {
     
-    internal func moveRealPage(_ realPage: Int, animated: Bool) {
+    open func moveRealPage(_ realPage: Int, animated: Bool) {
         if realPage >= 0 && realPage < realViewCount && realPage == currentRealPage {
             log("moveRealPage received same page(\(realPage)) == currentPage(\(currentRealPage))")
             return
