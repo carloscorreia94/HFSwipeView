@@ -12,7 +12,7 @@ import TinyLog
 
 class SimpleController: UIViewController {
     
-    fileprivate let sampleCount: Int = 4
+    fileprivate let sampleCount: Int = 9
     fileprivate var didSetupConstraints: Bool = false
     
     fileprivate lazy var swipeView: HFSwipeView = {
@@ -26,7 +26,7 @@ class SimpleController: UIViewController {
     }()
     fileprivate var currentView: UIView?
     fileprivate var itemSize: CGSize {
-        return CGSize(width: 100, height: 100)
+        return CGSize(width: self.view.frame.size.width, height: 100)
     }
     fileprivate var swipeViewFrame: CGRect {
         return CGRect(x: 0, y: 100, width: self.view.frame.size.width, height: 100)
