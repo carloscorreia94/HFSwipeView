@@ -292,6 +292,7 @@ open class HFSwipeView: UIView {
         setContentSizeWithoutCallingDelegate(contentSize)
         log("successfully set content size: \(collectionView.contentSize)")
         
+        self.collectionView.reloadData()
         return true
     }
 }
