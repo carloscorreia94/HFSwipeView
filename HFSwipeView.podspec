@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HFSwipeView'
-  s.version          = '1.2.1'
+  s.version          = '1.3'
   s.summary          = 'Infinite SwipeView for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/DragonCherry/HFSwipeView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'HFSwipeView/Classes/**/*'
   
